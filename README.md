@@ -4,15 +4,7 @@
 
 **URL**: [https://github.com/amitsrathod1011-spec/amit-portfolio.git]
 
-## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use **
-
-Simply visit the [Lovable Project](https://github.com/amitsrathod1011-spec/amit-portfolio.git) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
