@@ -8,9 +8,15 @@ export const AboutSection = () => {
   ];
 
   const contacts = [
-    { icon: Mail, label: "Email", value: "amitsrathod1011@gmail.com", href: "mailto:amitsrathod1011@gmail.com" },
+    { 
+  icon: Mail, 
+  label: "Email", 
+  value: "amitsrathod1011@gmail.com", 
+  href: "mailto:amitsrathod1011@gmail.com" 
+},
+
     { icon: Phone, label: "Phone", value: "+91 9422449071", href: "tel:+919422449071" },
-    { icon: Globe, label: "Website", value: "www.amitrathod.dev", href: "#" },
+    { icon: Globe, label: "Website", value: "www.amitrathod.com", href: "https://www.amitrathod.com" },
   ];
 
   return (
