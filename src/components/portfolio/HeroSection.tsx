@@ -40,14 +40,15 @@ export const HeroSection = () => {
               className="text-xl md:text-2xl text-muted-foreground mb-6 animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             >
-              Web Developer & Designer
+              Full Stack Web Developer & Graphic Designer
             </h2>
             <p
               className="text-muted-foreground mb-8 leading-relaxed animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             >
-              Specializing in web design and development. I create beautiful, functional websites
-              with expertise in front-end, back-end development, and modern design principles.
+              Passionate about creating modern web applications using Java Full Stack technologies. 
+              I specialize in responsive UI design, backend development, API integration, and database management 
+              while continuously exploring Generative AI technologies.
             </p>
 
             {/* CTA Buttons */}
@@ -75,7 +76,7 @@ export const HeroSection = () => {
                 <Mail className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/amitsrathod1011-spec"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
@@ -83,7 +84,7 @@ export const HeroSection = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/amit-rathod5050"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
