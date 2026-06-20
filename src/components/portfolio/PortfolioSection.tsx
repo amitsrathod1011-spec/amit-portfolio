@@ -3,20 +3,20 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Virtual Herbal Garden",
+    title: "Virtual Herbal Garden Plants (3D Visualization)",
     category: "Web Development",
-    description: "An interactive web-based platform showcasing virtual herbal plants with detailed information, 3D visualization, and educational content about medicinal properties.",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
-    technologies: ["HTML", "CSS", "JavaScript", "Three.js"],
+    description: "An interactive 3D herbal garden that lets users explore medicinal plants and their Ayurvedic benefits through immersive visualization.",
+    image: "https://plus.unsplash.com/premium_photo-1742202420374-4ad88d386d81?auto=format&fit=crop&w=600&h=400&q=80",
+    technologies: ["HTML", "CSS", "JavaScript", "GLB Models", "JSON", "Three.js"],
     icon: Leaf,
     color: "from-green-500 to-emerald-600",
   },
   {
-    title: "Cyber Phishing Detection",
-    category: "Security Project",
-    description: "A web application designed to detect and prevent phishing attacks using machine learning algorithms and real-time URL analysis.",
+    title: "Employee Management System",
+    category: "Web Development",
+    description: "A Java-based Employee Management System that enables efficient management of employee profiles, attendance, salary records, and leave requests through secure admin and employee dashboards.",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop",
-    technologies: ["Python", "React", "Machine Learning", "API"],
+    technologies: ["Java", "JSP", "Servlet", "JDBC", "MySQL", "MVC", "Tomcat"],
     icon: Shield,
     color: "from-red-500 to-orange-600",
   },

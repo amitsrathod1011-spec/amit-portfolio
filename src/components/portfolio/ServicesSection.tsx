@@ -2,22 +2,22 @@ import { Palette, Code, Smartphone, Layers } from "lucide-react";
 
 const services = [
   {
-    icon: Palette,
-    title: "Web Design",
-    description: "Creating visually stunning and user-friendly website designs that capture your brand's essence and engage your audience.",
-    features: ["UI/UX Design", "Responsive Layouts", "Brand Identity", "Wireframing"],
+    icon: Code,
+    title: "Java Full Stack Development",
+    description: "Building scalable and secure full-stack web applications using Java, Spring Boot, React.js, and MySQL.",
+    features: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs", "MVC Architecture"],
   },
   {
     icon: Code,
     title: "Web Development",
     description: "Building robust, scalable, and high-performance websites using modern technologies and best practices.",
-    features: ["Frontend Development", "Backend Integration", "API Development", "Database Design"],
+    features: ["HTML", "CSS", "JavaScript", "React.js", "Responsive Design", "Performance Optimization"],
   },
   {
-    icon: Smartphone,
-    title: "Responsive Design",
-    description: "Ensuring your website looks and works perfectly on all devices, from desktop to mobile.",
-    features: ["Mobile-First Approach", "Cross-Browser Support", "Performance Optimization", "Accessibility"],
+    icon: Palette,
+    title: "Graphic Design",
+    description: "Designing creative posters, flyers, social media posts, and branding materials for businesses.",
+    features: ["Brand Identity", "Visual Communication", "Layout Design", "Posters & Flyers"],
   },
   {
     icon: Layers,
