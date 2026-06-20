@@ -2,23 +2,24 @@ import { useEffect, useRef, useState } from "react";
 import { Code, Palette, Server, Users, Monitor, Database } from "lucide-react";
 
 const skills = [
+  { name: "Java", level: 90, category: "Programming" },
+  { name: "Spring Boot", level: 80, category: "Backend" },
+  { name: "MVC Architecture", level: 80, category: "Backend" },
   { name: "HTML/CSS", level: 90, category: "Frontend" },
-  { name: "JavaScript", level: 85, category: "Frontend" },
-  { name: "React.js", level: 80, category: "Frontend" },
-  { name: "Node.js", level: 75, category: "Backend" },
-  { name: "Python", level: 70, category: "Programming" },
-  { name: "SQL/Database", level: 75, category: "Backend" },
-  { name: "UI/UX Design", level: 80, category: "Design" },
+  { name: "JavaScript", level: 80, category: "Frontend" },
+  { name: "React.js", level: 75, category: "Frontend" },
+  { name: "MySQL", level: 85, category: "Database" },
+  { name: "Canva/CorelDRAW", level: 75, category: "Design" },
   { name: "Git/GitHub", level: 85, category: "Tools" },
 ];
 
 const skillCategories = [
-  { icon: Code, name: "Web Development", description: "Building responsive and modern websites" },
-  { icon: Monitor, name: "Frontend Development", description: "Creating beautiful user interfaces" },
-  { icon: Server, name: "Backend Development", description: "Server-side logic and APIs" },
-  { icon: Palette, name: "Design Skills", description: "UI/UX and visual design" },
-  { icon: Database, name: "Database Management", description: "SQL and NoSQL databases" },
-  { icon: Users, name: "Event Management", description: "Organizing and coordinating events" },
+  { icon: Code, name: "Java Development", description: "Building robust and scalable Java applications." },
+  { icon: Monitor, name: "Frontend Development", description: "Creating responsive and interactive user interfaces." },
+  { icon: Server, name: "Backend Development", description: "Developing secure server-side applications and REST APIs." },
+  { icon: Palette, name: "Graphic Design", description: "Designing creative posters, flyers, and branding materials." },
+  { icon: Database, name: "Database Management", description: "Managing MySQL databases and optimizing data storage." },
+  { icon: Users, name: "Event Management", description: "Planning and coordinating successful events with effective teamwork." },
 ];
 
 const SkillBar = ({ name, level, delay }: { name: string; level: number; delay: number }) => {

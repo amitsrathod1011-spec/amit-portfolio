@@ -4,26 +4,26 @@ const education = [
   {
     icon: GraduationCap,
     degree: "B.Tech in Computer Science Engineering",
-    institution: "MIT CCORER Solapur",
+    institution: "MIT CCORER Barshi (Solapur, Maharashtra, India)",
     period: "2022 - 2026",
-    description: "Currently pursuing Bachelor's degree with focus on software development, algorithms, and modern web technologies.",
+    description: "Completed B.Tech in Computer Science Engineering with a focus on Java Full Stack Development and modern web technologies.",
     current: true,
   },
   {
     icon: School,
     degree: "Higher Secondary (12th)",
-    institution: "S.M.U. Nanded",
+    institution: "S.M.Udgir",
     period: "2021 - 2022",
-    score: "70.2%",
-    description: "Completed higher secondary education with science stream.",
+    score: "70.17%",
+    description: "Completed Higher Secondary Education in the Science stream with a strong academic foundation.",
   },
   {
     icon: School,
     degree: "Secondary School (10th)",
-    institution: "L.B.S.V. Nanded",
+    institution: "L.B.S.V.Udgir",
     period: "2019 - 2020",
-    score: "89.8%",
-    description: "Completed secondary education with excellent academic performance.",
+    score: "89.80%",
+    description: "Completed Secondary School Education with excellent academic performance.",
   },
 ];
 
@@ -60,7 +60,7 @@ export const EducationSection = () => {
                     </span>
                     {item.current && (
                       <span className="text-xs text-accent font-medium px-2 py-1 bg-accent/10 rounded-full">
-                        Current
+                        Graduated with 8.2 CGPA
                       </span>
                     )}
                     {item.score && (

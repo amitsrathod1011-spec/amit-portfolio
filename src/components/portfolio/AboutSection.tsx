@@ -2,7 +2,7 @@ import { MapPin, Calendar, GraduationCap, Mail, Phone, Globe } from "lucide-reac
 
 export const AboutSection = () => {
   const details = [
-    { icon: MapPin, label: "Location", value: "Nanded, India" },
+    { icon: MapPin, label: "Location", value: "Maharashtra, India" },
     { icon: Calendar, label: "Birthday", value: "06 Oct 2003" },
     { icon: GraduationCap, label: "Degree", value: "B.Tech CSE" },
   ];
@@ -16,7 +16,7 @@ export const AboutSection = () => {
 },
 
     { icon: Phone, label: "Phone", value: "+91 9422449071", href: "tel:+919422449071" },
-    { icon: Globe, label: "Website", value: "www.amitrathod.com", href: "https://www.amitrathod.com" },
+    { icon: Globe, label: "Website", value: "www.amitrathod.com", href: "https://amit-portfolio-t.vercel.app/" },
   ];
 
   return (
@@ -32,19 +32,19 @@ export const AboutSection = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="glass rounded-2xl p-6 md:p-8">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm Amit Sanjay Rathod, a passionate web developer from Nanded, India. Currently pursuing
-                my B.Tech in Computer Science Engineering, I'm dedicated to creating beautiful and
-                functional websites that make a difference.
+                I'm Amit Sanjay Rathod, a passionate Java Full Stack Developer and Graphic Designer from Maharashtra, India. 
+                I have completed my B.Tech in Computer Science Engineering 2022-26 and am passionate about building modern, responsive, 
+                and user-friendly web applications and creative digital designs.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                My journey in web development started with a curiosity about how things work on the
-                internet, and it has evolved into a full-fledged passion. I specialize in both
-                front-end and back-end development, with a keen eye for design and user experience.
+               My expertise includes Java, Spring Boot, React.js, HTML, CSS, JavaScript, MySQL, REST APIs.
+                I love creating high-performance websites and full-stack applications that solve real-world problems 
+                while providing an excellent user experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Beyond coding, I'm also involved in event management, which has helped me develop
-                strong organizational and communication skills. I believe in continuous learning and
-                staying updated with the latest technologies and trends.
+                Along with software development, I have experience in Graphic Design using Canva and Basic CorelDRAW, 
+                creating professional posters, flyers, social media creatives, and branding materials. 
+                I believe in continuous learning and constantly improving my technical and creative skills by working on real-world projects and modern web technologies.
               </p>
             </div>
 
