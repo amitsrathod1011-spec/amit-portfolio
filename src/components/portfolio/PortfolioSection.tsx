@@ -15,7 +15,7 @@ const projects = [
     title: "Employee Management System",
     category: "Web Development",
     description: "A Java-based Employee Management System that enables efficient management of employee profiles, attendance, salary records, and leave requests through secure admin and employee dashboards.",
-   image: "/emp.png",
+   image: "https://amit-portfolio-t.vercel.app/emp.png?auto=format&fit=crop&w=600&h=400&q=80",
     technologies: ["Java", "JSP", "Servlet", "JDBC", "MySQL", "MVC", "Tomcat"],
     icon: Shield,
     color: "from-red-500 to-orange-600",
