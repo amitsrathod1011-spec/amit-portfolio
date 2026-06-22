@@ -15,7 +15,7 @@ const projects = [
     title: "Employee Management System",
     category: "Web Development",
     description: "A Java-based Employee Management System that enables efficient management of employee profiles, attendance, salary records, and leave requests through secure admin and employee dashboards.",
-   image: "https://images.unsplash.com/photo-1678209261881-6f1b6d9d3d0f?auto=format&fit=crop&w=600&h=400&q=80",
+   image: "/emp.png",
     technologies: ["Java", "JSP", "Servlet", "JDBC", "MySQL", "MVC", "Tomcat"],
     icon: Shield,
     color: "from-red-500 to-orange-600",
